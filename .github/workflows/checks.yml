@@ -1,0 +1,88 @@
+name: Track Submodule Repository Changes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-for-submodule-updates:
+    runs-on: ubuntu-latest
+    outputs:
+      changed_submodules: ${{ steps.collect.outputs.changed_submodules }}
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Collect changed submodules
+        id: collect
+        run: |
+          changed=()
+
+          git submodule foreach --quiet '
+            cd $toplevel/$path
+            REMOTE_URL=$(git config --get remote.origin.url)
+            git fetch --depth=1 origin HEAD
+            LOCAL_COMMIT=$(git rev-parse HEAD)
+            REMOTE_COMMIT=$(git ls-remote "$REMOTE_URL" HEAD | awk "{print \$1}")
+            if [ "$LOCAL_COMMIT" != "$REMOTE_COMMIT" ]; then
+              echo "Changes detected in submodule $name"
+              echo "$name" >> $toplevel/changed_submodules.txt
+            else
+              echo "No changes in submodule $name"
+            fi
+          '
+
+          if [ -f changed_submodules.txt ]; then
+            while IFS= read -r line; do
+              if [ -n "$line" ]; then
+                changed+=("$line")
+              fi
+            done < changed_submodules.txt
+          fi
+
+          if [ ${#changed[@]} -eq 0 ]; then
+            echo "changed_submodules=[]" >> "$GITHUB_OUTPUT"
+          else
+            json=$(printf '%s\n' "${changed[@]}" | jq -R . | jq -c -s .)
+            echo "changed_submodules=$json" >> "$GITHUB_OUTPUT"
+          fi
+
+  create-pr:
+    needs: check-for-submodule-updates
+    runs-on: ubuntu-latest
+    if: ${{ needs.check-for-submodule-updates.outputs.changed_submodules != '[]' }}
+    strategy:
+      matrix:
+        submodule: ${{ fromJson(needs.check-for-submodule-updates.outputs.changed_submodules) }}
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          submodules: true
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Update submodule ${{ matrix.submodule }}
+        run: |
+          echo "Обновляем сабмодуль: ${{ matrix.submodule }}"
+          git submodule update --remote ${{ matrix.submodule }}
+          git add ${{ matrix.submodule }}
+          git commit -m "Update repo ${{ matrix.submodule }}" || echo "No changes to commit"
+
+      - name: Create pull request for ${{ matrix.submodule }}
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          title: "Update repository ${{ matrix.submodule }}"
+          body: "Update repository **${{ matrix.submodule }}** to its latest commit."
+          base: main

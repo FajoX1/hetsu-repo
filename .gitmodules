@@ -1,0 +1,6 @@
+[submodule "modules/fajox1/famods"]
+	path = modules/fajox1/famods
+	url = https://github.com/fajox1/famods
+[submodule "modules/vsecoder/hikka_modules"]
+	path = modules/vsecoder/hikka_modules
+	url = https://github.com/vsecoder/hikka_modules
