@@ -4,9 +4,6 @@
 [submodule "vsecoder/hikka_modules"]
 	path = vsecoder/hikka_modules
 	url = https://github.com/vsecoder/hikka_modules
-[submodule "modules/DziruModules/hikkamods"]
-	path = modules/DziruModules/hikkamods
-	url = https://github.com/DziruModules/hikkamods
 [submodule "DziruModules/hikkamods"]
 	path = DziruModules/hikkamods
 	url = https://github.com/DziruModules/hikkamods
