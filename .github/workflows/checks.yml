@@ -18,12 +18,10 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-
       - name: Collect changed submodules
         id: collect
         run: |
           changed=()
-
           git submodule foreach --quiet '
             cd $toplevel/$path
             REMOTE_URL=$(git config --get remote.origin.url)
@@ -37,7 +35,6 @@ jobs:
               echo "No changes in submodule $name"
             fi
           '
-
           if [ -f changed_submodules.txt ]; then
             while IFS= read -r line; do
               if [ -n "$line" ]; then
@@ -45,7 +42,6 @@ jobs:
               fi
             done < changed_submodules.txt
           fi
-
           if [ ${#changed[@]} -eq 0 ]; then
             echo "changed_submodules=[]" >> "$GITHUB_OUTPUT"
           else
@@ -72,12 +68,21 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
+      - name: Create and switch to new branch for ${{ matrix.submodule }}
+        run: |
+          branch_name="update-${{ matrix.submodule }}-$(date +%Y%m%d%H%M%S)"
+          git checkout -b "$branch_name"
+
       - name: Update submodule ${{ matrix.submodule }}
         run: |
           echo "Обновляем сабмодуль: ${{ matrix.submodule }}"
           git submodule update --remote ${{ matrix.submodule }}
           git add ${{ matrix.submodule }}
           git commit -m "Update repo ${{ matrix.submodule }}" || echo "No changes to commit"
+
+      - name: Push the branch for ${{ matrix.submodule }}
+        run: |
+          git push --set-upstream origin "$branch_name"
 
       - name: Create pull request for ${{ matrix.submodule }}
         uses: peter-evans/create-pull-request@v4
@@ -86,3 +91,4 @@ jobs:
           title: "Update repository ${{ matrix.submodule }}"
           body: "Update repository **${{ matrix.submodule }}** to its latest commit."
           base: main
+          head: "$branch_name"
