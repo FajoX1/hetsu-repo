@@ -115,3 +115,6 @@
 [submodule "dorotorothequickend/DorotoroModules"]
 	path = dorotorothequickend/DorotoroModules
 	url = https://github.com/dorotorothequickend/DorotoroModules
+[submodule "AlpacaGang-ftg-modules"]
+	path = AlpacaGang-ftg-modules
+	url = https://github.com/AlpacaGang/ftg-modules
