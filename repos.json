@@ -1,11 +1,170 @@
 [
-    {
-      "repo": "https://github.com/fajox1/famods",
-      "path": "/fajox1/famods"
-    },
-    {
-      "repo": "https://github.com/vsecoder/hikka_modules",
-      "path": "/vsecoder/hikka_modules"
-    }
-  ]
-  
+  {
+    "repo": "https://github.com/fajox1/famods",
+    "path": "/fajox1/famods"
+  },
+  {
+    "repo": "https://github.com/vsecoder/hikka_modules",
+    "path": "/vsecoder/hikka_modules"
+  },
+  {
+    "repo": "https://github.com/kamolgks/Hikkamods",
+    "path": "/kamolgks/Hikkamods"
+  },
+  {
+    "repo": "https://github.com/thomasmod/hikkamods",
+    "path": "/thomasmod/hikkamods"
+  },
+  {
+    "repo": "https://github.com/SkillsAngels/Modules",
+    "path": "/SkillsAngels/Modules"
+  },
+  {
+    "repo": "https://github.com/Sad0ff/modules-ftg",
+    "path": "/Sad0ff/modules-ftg"
+  },
+  {
+    "repo": "https://github.com/Yahikoro/Modules-for-FTG",
+    "path": "/Yahikoro/Modules-for-FTG"
+  },
+  {
+    "repo": "https://github.com/KeyZenD/modules",
+    "path": "/KeyZenD/modules"
+  },
+  {
+    "repo": "https://github.com/AlpacaGang/ftg-modules",
+    "path": "/AlpacaGang/ftg-modules"
+  },
+  {
+    "repo": "https://github.com/trololo65/Modules",
+    "path": "/trololo65/Modules"
+  },
+  {
+    "repo": "https://github.com/Ijidishurka/modules",
+    "path": "/Ijidishurka/modules"
+  },
+  {
+    "repo": "https://github.com/Fl1yd/FTG-Modules",
+    "path": "/Fl1yd/FTG-Modules"
+  },
+  {
+    "repo": "https://github.com/D4n13l3k00/FTG-Modules",
+    "path": "/D4n13l3k00/FTG-Modules"
+  },
+  {
+    "repo": "https://github.com/iamnalinor/FTG-modules",
+    "path": "/iamnalinor/FTG-modules"
+  },
+  {
+    "repo": "https://github.com/SekaiYoneya/modules",
+    "path": "/SekaiYoneya/modules"
+  },
+  {
+    "repo": "https://github.com/GeekTG/FTG-Modules",
+    "path": "/GeekTG/FTG-Modules"
+  },
+  {
+    "repo": "https://github.com/Den4ikSuperOstryyPer4ik/Astro-modules",
+    "path": "/Den4ikSuperOstryyPer4ik/Astro-modules"
+  },
+  {
+    "repo": "https://github.com/sqlmerr/hikka_mods",
+    "path": "/sqlmerr/hikka_mods"
+  },
+  {
+    "repo": "https://github.com/N3rcy/modules",
+    "path": "/N3rcy/modules"
+  },
+  {
+    "repo": "https://github.com/KorenbZla/HikkaModules",
+    "path": "/KorenbZla/HikkaModules"
+  },
+  {
+    "repo": "https://github.com/MuRuLOSE/HikkaModulesRepo",
+    "path": "/MuRuLOSE/HikkaModulesRepo"
+  },
+  {
+    "repo": "https://github.com/C0dwiz/H.Modules",
+    "path": "/C0dwiz/H.Modules"
+  },
+  {
+    "repo": "https://github.com/coddrago/modules",
+    "path": "/coddrago/modules"
+  },
+  {
+    "repo": "https://github.com/1jpshiro/hikka-modules",
+    "path": "/1jpshiro/hikka-modules"
+  },
+  {
+    "repo": "https://github.com/MoriSummerz/ftg-mods",
+    "path": "/MoriSummerz/ftg-mods"
+  },
+  {
+    "repo": "https://github.com/anon97945/hikka-mods",
+    "path": "/anon97945/hikka-mods"
+  },
+  {
+    "repo": "https://github.com/dorotorothequickend/DorotoroModules",
+    "path": "/dorotorothequickend/DorotoroModules"
+  },
+  {
+    "repo": "https://github.com/den4ikSuperOstryyPer4ik/astro-modules",
+    "path": "/den4ikSuperOstryyPer4ik/astro-modules"
+  },
+  {
+    "repo": "https://github.com/ssshdev/sh.modules",
+    "path": "/ssshdev/sh.modules"
+  },
+  {
+    "repo": "https://github.com/AmoreForever/amoremods",
+    "path": "/AmoreForever/amoremods"
+  },
+  {
+    "repo": "https://github.com/idiotcoders/idiotmodules",
+    "path": "/idiotcoders/idiotmodules"
+  },
+  {
+    "repo": "https://github.com/CakesTwix/Hikka-Modules",
+    "path": "/CakesTwix/Hikka-Modules"
+  },
+  {
+    "repo": "https://github.com/GD-alt/mm-hikka-mods",
+    "path": "/GD-alt/mm-hikka-mods"
+  },
+  {
+    "repo": "https://github.com/HitaloSama/FTG-modules-repo",
+    "path": "/HitaloSama/FTG-modules-repo"
+  },
+  {
+    "repo": "https://github.com/SekaiYoneya/Friendly-telegram",
+    "path": "/SekaiYoneya/Friendly-telegram"
+  },
+  {
+    "repo": "https://github.com/blazedzn/ftg-modules",
+    "path": "/blazedzn/ftg-modules"
+  },
+  {
+    "repo": "https://github.com/hikariatama/ftg",
+    "path": "/hikariatama/ftg"
+  },
+  {
+    "repo": "https://github.com/m4xx1m/FTG",
+    "path": "/m4xx1m/FTG"
+  },
+  {
+    "repo": "https://github.com/skillzmeow/skillzmods_hikka",
+    "path": "/skillzmeow/skillzmods_hikka"
+  },
+  {
+    "repo": "https://github.com/unneyon/hikka-mods",
+    "path": "/unneyon/hikka-mods"
+  },
+  {
+    "repo": "https://github.com/TheKsenon/MyHikkaModules",
+    "path": "/TheKsenon/MyHikkaModules"
+  },
+  {
+    "repo": "https://github.com/cryptexctl/modules-mirror",
+    "path": "/cryptexctl/modules-mirror"
+  }
+]

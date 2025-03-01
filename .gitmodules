@@ -4,3 +4,117 @@
 [submodule "vsecoder/hikka_modules"]
 	path = vsecoder/hikka_modules
 	url = https://github.com/vsecoder/hikka_modules
+[submodule "modules/DziruModules/hikkamods"]
+	path = modules/DziruModules/hikkamods
+	url = https://github.com/DziruModules/hikkamods
+[submodule "DziruModules/hikkamods"]
+	path = DziruModules/hikkamods
+	url = https://github.com/DziruModules/hikkamods
+[submodule "SkillsAngels/Modules"]
+	path = SkillsAngels/Modules
+	url = https://github.com/SkillsAngels/Modules
+[submodule "Sad0ff/modules-ftg"]
+	path = Sad0ff/modules-ftg
+	url = https://github.com/Sad0ff/modules-ftg
+[submodule "Yahikoro/Modules-for-FTG"]
+	path = Yahikoro/Modules-for-FTG
+	url = https://github.com/Yahikoro/Modules-for-FTG
+[submodule "KeyZenD/modules"]
+	path = KeyZenD/modules
+	url = https://github.com/KeyZenD/modules
+[submodule "AlpacaGang"]
+	path = AlpacaGang
+	url = https://github.com/AlpacaGang/ftg-modules
+[submodule "TheKsenon/MyHikkaModules"]
+	path = TheKsenon/MyHikkaModules
+	url = https://github.com/TheKsenon/MyHikkaModules
+[submodule "unneyon/hikka-mods"]
+	path = unneyon/hikka-mods
+	url = https://github.com/unneyon/hikka-mods
+[submodule "kamolgks/Hikkamods"]
+	path = kamolgks/Hikkamods
+	url = https://github.com/kamolgks/Hikkamods
+[submodule "thomasmod/hikkamods"]
+	path = thomasmod/hikkamods
+	url = https://github.com/thomasmod/hikkamods
+[submodule "trololo65/Modules"]
+	path = trololo65/Modules
+	url = https://github.com/trololo65/Modules
+[submodule "Ijidishurka/modules"]
+	path = Ijidishurka/modules
+	url = https://github.com/Ijidishurka/modules
+[submodule "Fl1yd/FTG-Modules"]
+	path = Fl1yd/FTG-Modules
+	url = https://github.com/Fl1yd/FTG-Modules
+[submodule "D4n13l3k00/FTG-Modules"]
+	path = D4n13l3k00/FTG-Modules
+	url = https://github.com/D4n13l3k00/FTG-Modules
+[submodule "iamnalinor/FTG-modules"]
+	path = iamnalinor/FTG-modules
+	url = https://github.com/iamnalinor/FTG-modules
+[submodule "SekaiYoneya/modules"]
+	path = SekaiYoneya/modules
+	url = https://github.com/SekaiYoneya/modules
+[submodule "GeekTG/FTG-Modules"]
+	path = GeekTG/FTG-Modules
+	url = https://github.com/GeekTG/FTG-Modules
+[submodule "Den4ikSuperOstryyPer4ik/Astro-modules"]
+	path = Den4ikSuperOstryyPer4ik/Astro-modules
+	url = https://github.com/Den4ikSuperOstryyPer4ik/Astro-modules
+[submodule "sqlmerr/hikka_mods"]
+	path = sqlmerr/hikka_mods
+	url = https://github.com/sqlmerr/hikka_mods
+[submodule "N3rcy/modules"]
+	path = N3rcy/modules
+	url = https://github.com/N3rcy/modules
+[submodule "KorenbZla/HikkaModules"]
+	path = KorenbZla/HikkaModules
+	url = https://github.com/KorenbZla/HikkaModules
+[submodule "MuRuLOSE/HikkaModulesRepo"]
+	path = MuRuLOSE/HikkaModulesRepo
+	url = https://github.com/MuRuLOSE/HikkaModulesRepo
+[submodule "C0dwiz/H.Modules"]
+	path = C0dwiz/H.Modules
+	url = https://github.com/C0dwiz/H.Modules
+[submodule "coddrago/modules"]
+	path = coddrago/modules
+	url = https://github.com/coddrago/modules
+[submodule "1jpshiro/hikka-modules"]
+	path = 1jpshiro/hikka-modules
+	url = https://github.com/1jpshiro/hikka-modules
+[submodule "MoriSummerz/ftg-mods"]
+	path = MoriSummerz/ftg-mods
+	url = https://github.com/MoriSummerz/ftg-mods
+[submodule "anon97945/hikka-mods"]
+	path = anon97945/hikka-mods
+	url = https://github.com/anon97945/hikka-mods
+[submodule "den4ikSuperOstryyPer4ik/astro-modules"]
+	path = den4ikSuperOstryyPer4ik/astro-modules
+	url = https://github.com/den4ikSuperOstryyPer4ik/astro-modules
+[submodule "ssshdev/sh.modules"]
+	path = ssshdev/sh.modules
+	url = https://github.com/ssshdev/sh.modules
+[submodule "AmoreForever/amoremods"]
+	path = AmoreForever/amoremods
+	url = https://github.com/AmoreForever/amoremods
+[submodule "idiotcoders/idiotmodules"]
+	path = idiotcoders/idiotmodules
+	url = https://github.com/idiotcoders/idiotmodules
+[submodule "CakesTwix/Hikka-Modules"]
+	path = CakesTwix/Hikka-Modules
+	url = https://github.com/CakesTwix/Hikka-Modules
+[submodule "GD-alt/mm-hikka-mods"]
+	path = GD-alt/mm-hikka-mods
+	url = https://github.com/GD-alt/mm-hikka-mods
+[submodule "SekaiYoneya/Friendly-telegram"]
+	path = SekaiYoneya/Friendly-telegram
+	url = https://github.com/SekaiYoneya/Friendly-telegram
+[submodule "hikariatama/ftg"]
+	path = hikariatama/ftg
+	url = https://github.com/hikariatama/ftg
+[submodule "cryptexctl/modules-mirror"]
+	path = cryptexctl/modules-mirror
+	url = https://github.com/cryptexctl/modules-mirror
+[submodule "dorotorothequickend/DorotoroModules"]
+	path = dorotorothequickend/DorotoroModules
+	url = https://github.com/dorotorothequickend/DorotoroModules
