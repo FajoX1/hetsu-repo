@@ -108,7 +108,7 @@
 	url = https://github.com/SekaiYoneya/Friendly-telegram
 [submodule "hikariatama/ftg"]
 	path = hikariatama/ftg
-	url = https://github.com/hikariatama/ftg
+	url = https://github.com/FajoX1/hikari-ftg-modules
 [submodule "cryptexctl/modules-mirror"]
 	path = cryptexctl/modules-mirror
 	url = https://github.com/cryptexctl/modules-mirror
