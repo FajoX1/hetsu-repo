@@ -162,9 +162,5 @@
   {
     "repo": "https://github.com/TheKsenon/MyHikkaModules",
     "path": "/TheKsenon/MyHikkaModules"
-  },
-  {
-    "repo": "https://github.com/cryptexctl/modules-mirror",
-    "path": "/cryptexctl/modules-mirror"
   }
 ]
