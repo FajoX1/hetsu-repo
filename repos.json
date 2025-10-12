@@ -162,5 +162,25 @@
   {
     "repo": "https://github.com/TheKsenon/MyHikkaModules",
     "path": "/TheKsenon/MyHikkaModules"
+  },
+  {
+    "repo": "https://github.com/mead0wsss/mead0wsMods",
+    "path": "/mead0wsss/mead0wsMods"
+  },
+  {
+    "repo": "https://github.com/Ruslan-Isaev/modules",
+    "path": "/Ruslan-Isaev/modules"
+  },
+  {
+    "repo": "https://github.com/codermasochist/AsModules",
+    "path": "/codermasochist/AsModules"
+  },
+  {
+    "repo": "https://github.com/ZetGoHack/Nullmod",
+    "path": "/ZetGoHack/Nullmod"
+  },
+  {
+    "repo": "https://github.com/kamekuro/hikka-mods",
+    "path": "/kamekuro/hikka-mods"
   }
 ]

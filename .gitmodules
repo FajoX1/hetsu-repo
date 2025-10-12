@@ -118,3 +118,18 @@
 [submodule "AlpacaGang-ftg-modules"]
 	path = AlpacaGang-ftg-modules
 	url = https://github.com/AlpacaGang/ftg-modules
+[submodule "mead0wsss/mead0wsMods"]
+	path = mead0wsss/mead0wsMods
+	url = https://github.com/mead0wsss/mead0wsMods
+[submodule "Ruslan-Isaev/modules"]
+	path = Ruslan-Isaev/modules
+	url = https://github.com/Ruslan-Isaev/modules
+[submodule "codermasochist/AsModule"]
+	path = codermasochist/AsModule
+	url = https://github.com/codermasochist/AsModule
+[submodule "ZetGoHack/Nullmod"]
+	path = ZetGoHack/Nullmod
+	url = https://github.com/ZetGoHack/Nullmod
+[submodule "kamekuro/hikka-mods"]
+	path = kamekuro/hikka-mods
+	url = https://github.com/kamekuro/hikka-mods
